@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { Container, TextField, Button, Typography, Card, CardContent } from "@mui/material";
 
-const API_URL = "https://fakenewsagpp-q0lh.onrender.com/predict";
+const API_URL = "https://fakenewsapp-q0lh.onrender.com/predict";
 
 const App = () => {
   const [newsText, setNewsText] = useState("");
